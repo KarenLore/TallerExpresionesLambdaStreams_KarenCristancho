@@ -26,7 +26,7 @@ Se han implementado múltiples funcionalidades como:  🚀
 ```
 git clone https://github.com/KarenLore/TallerExpresionesLambdaStreams_KarenCristancho.git
 
-🔹 2️⃣ Configurar Maven o Gradle
+🔹 2️⃣ Configurar Maven
 
 Si usas Maven, agrega en pom.xml:
 
@@ -124,7 +124,6 @@ Selecciona una opción: 1
 ...
 Selecciona una opción: 1
 
-Manchester City
 RB Leipzig
 
 
