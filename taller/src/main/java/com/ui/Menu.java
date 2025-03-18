@@ -50,13 +50,13 @@ public class Menu {
             System.out.println("\n****************************");
             System.out.println("📌   RETOS PROPUESTOS   ");
             System.out.println("****************************");
-            System.out.println("1️⃣  Listar Equipos Fundados Después del Año 2000");
-            System.out.println("2️⃣  Imprimir Nombres de Entrenadores");
-            System.out.println("3️⃣  Calcular el Promedio de Edad de Jugadores por Equipo");
-            System.out.println("4️⃣  Listar Equipos con Más de 20 Victorias");
-            System.out.println("5️⃣  Obtener el Jugador Más Alto de Cada Equipo");
-            System.out.println("6️⃣  Calcular el Total de Goles por Equipo");
-            System.out.println("7️⃣  Volver al Menú Principal");
+            System.out.println("1  Listar Equipos Fundados Después del Año 2000");
+            System.out.println("2  Imprimir Nombres de Entrenadores");
+            System.out.println("3  Calcular el Promedio de Edad de Jugadores por Equipo");
+            System.out.println("4  Listar Equipos con Más de 20 Victorias");
+            System.out.println("5  Obtener el Jugador Más Alto de Cada Equipo");
+            System.out.println("6  Calcular el Total de Goles por Equipo");
+            System.out.println("7  Volver al Menú Principal");
             System.out.println("****************************");
             System.out.print("🔹 Selecciona una opción: ");
 
