@@ -2,12 +2,10 @@ package com.challenges;
 
 import com.models.ListaEquipos;
 import com.models.Equipo;
-import com.models.Jugador;
 
 import java.util.Comparator;
 import java.util.Map;
 import java.util.function.Predicate;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 
@@ -34,7 +32,7 @@ public class RetosAdicionales {
     public static void encontrarEquipoMasVictorias(ListaEquipos listaEquipos){
         listaEquipos.equipos.stream()
             .max(Comparator.comparingInt(e -> e.statistics.get(0).pg))
-            .ifPresent(equipo -> System.out.println("Equipo con más victorias: " + equipo.name + " (" + equipo.statistics.get(0).pg + " Victorias."));
+            .ifPresent(equipo -> System.out.println("Equipo con más victorias: " + equipo.name + " (" + equipo.statistics.get(0).pg + " Victorias)."));
     }
 
     // 4. Encontrar el jugador más alto de todos los equipos
@@ -42,7 +40,7 @@ public class RetosAdicionales {
         listaEquipos.equipos.stream()
         .flatMap(e -> e.players.stream())
         .max(Comparator.comparingInt(j -> j.height))
-        .ifPresent(jugador -> System.out.println("Jugador más alto: " + jugador.name + " (" + jugador.height + " cm"));
+        .ifPresent(jugador -> System.out.println("Jugador más alto: " + jugador.name + " (" + jugador.height + " cm)."));
     }
 
     // 5. Contar cuántos jugadores son delanteros en toda la UEFA Champions League
