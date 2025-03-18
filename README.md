@@ -85,8 +85,10 @@ El archivo uefa_teams_36_full_players.json contiene la información de equipos, 
 
 Para correr la aplicación:
 
+```
 javac src/main/java/Main.java
 java src/main/java/Main
+```
 
 El menú ofrece dos categorías de retos:
 
