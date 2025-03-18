@@ -12,7 +12,7 @@ public class Menu {
         int opcion;
 
         do {
-            System.out.println("\n📌 Menú Principal:");
+            System.out.println("\n📌------ Menú Principal: ------");
             System.out.println("1. Retos Propuestos");
             System.out.println("2. Retos Adicionales");
             System.out.println("3. Salir");
@@ -44,7 +44,7 @@ public class Menu {
         int opcion;
 
         do {
-            System.out.println("\n📌 Retos Propuestos:");
+            System.out.println("\n📌------ Retos Propuestos: ------");
             System.out.println("1. Listado de Equipos Fundados Después del Año 2000");
             System.out.println("2. Imprimir Nombres de Entrenadores");
             System.out.println("3. Calcular el Promedio de Edad de Jugadores por Equipo");
@@ -75,7 +75,7 @@ public class Menu {
         int opcion;
 
         do {
-            System.out.println("\n📌 Retos Adicionales:");
+            System.out.println("\n📌------ Retos Adicionales: ------");
             System.out.println("1. Listar Equipos con Más de 15 Puntos");
             System.out.println("2. Obtener el Promedio de Goles a Favor por Equipo");
             System.out.println("3. Mostrar el Equipo con Más Victorias");
