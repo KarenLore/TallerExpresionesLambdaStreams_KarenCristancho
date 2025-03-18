@@ -114,7 +114,7 @@ Retos Adicionales (Consultas avanzadas con Streams API y Predicate)
 Ejecuta el programa y selecciona una opción del menú.
 
 Ejemplo: Listar los equipos fundados después del 2000
-
+```
 📌 Menú Principal:
 1. Retos Propuestos
 2. Retos Adicionales
@@ -128,7 +128,7 @@ Selecciona una opción: 1
 
 RB Leipzig
 
-
+```
 ---
 
 📌 Conclusión
