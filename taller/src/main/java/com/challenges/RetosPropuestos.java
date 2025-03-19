@@ -53,7 +53,7 @@ public class RetosPropuestos {
         listaEquipos.getEquipos().forEach(e -> {
             e.getPlayers().stream()
                 .max(Comparator.comparingInt(j -> j.getHeight()))
-                .ifPresent(jugador -> System.out.println(e.getName() + ": " + jugador.getName() + " (" + jugador.getHeight() + " cm"));
+                .ifPresent(jugador -> System.out.println(e.getName() + ": " + jugador.getName() + " (" + jugador.getHeight() + " cm)"));
         });
     }
 
